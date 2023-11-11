@@ -1,0 +1,21 @@
+ul {
+    display: grid;
+    grid-template-rows: 75px 75px;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    column-gap: 10px;
+}
+
+ li > div {
+    height: 100%;
+ }
+
+ li i {
+    font-size: 22px;
+ }
+
+ li {
+   font-family: 'gilroyRegular', Arial, Helvetica, sans-serif;
+ 
+   font-size: 14px;
+ }

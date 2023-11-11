@@ -1,0 +1,10 @@
+.current-temperature {
+    display: flex;
+    flex-direction: column;
+    font-size: 100px;
+    font-family: 'gilroyBold', Arial, Helvetica, sans-serif;
+}
+
+.current-temperature i {
+    font-size: 30px;
+}

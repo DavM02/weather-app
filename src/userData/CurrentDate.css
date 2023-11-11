@@ -1,0 +1,10 @@
+.day {
+    font-size: 100px;
+    font-family: 'gilroyBold', Arial, Helvetica, sans-serif;
+}
+
+.month, .day-of-week, .weather-description {
+    font-family: 'gilroyRegular', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+}

@@ -1,0 +1,28 @@
+ 
+.input-wrapper input {
+    /* From https://css.glass */
+    background: rgb(255 255 255 / 4%);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.5px);
+    -webkit-backdrop-filter: blur(2.5px);
+    border: 1px solid rgba(255, 255, 255, 0.233);
+    text-align: center;
+    color: var(--white);
+    padding: 10px;
+    width: 100%;
+    outline: none;
+    font-family: 'gilroyRegular', Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-size: 14px;
+    overflow: scroll;
+    text-transform: capitalize;
+ 
+}
+   
+.input-wrapper {
+    width: 100%;
+}
+
+::placeholder {
+       color: rgb(255, 255, 255);
+}
