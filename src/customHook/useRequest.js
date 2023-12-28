@@ -20,7 +20,7 @@ function useRequest() {
                 } else {
                     dispatch(currentTempSliceActions.getLoadingState());
                     dispatch(currentTempSliceActions[getCurrentTemp](data));
-           
+          
                 }
 
 

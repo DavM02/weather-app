@@ -65,6 +65,10 @@
     opacity: 100%  !important;
 }
 
+.swiper-wrapper {
+    cursor: grabbing;
+}
+
 .forecast-day {
     color: var(--white);
     position: absolute;
@@ -77,6 +81,12 @@
 
 .forecast-for-hour > div {
     font-family: 'gilroyRegular', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+  
+}
+
+.forecast-for-hour span {
+    font-family: 'gilroyBold', Arial, Helvetica, sans-serif;
     font-size: 14px;
   
 }

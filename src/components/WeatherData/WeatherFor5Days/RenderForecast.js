@@ -23,26 +23,30 @@ function RenderForecast() {
 
 
 
-            for (let i = 1; i < weatherFor5Days.list.length; i += 8) {
+            for (let i = 0; i < weatherFor5Days.list.length; i += 8) {
                 const subArr = weatherFor5Days.list.slice(i, i + 8);
                 newForecast.push(subArr);
             }
             setForecast(newForecast);
+            console.log(newForecast)
         }
     }, [weatherFor5Days]);
 
-
+    console.log(weatherFor5Days)
+    
     function backToPrevState() {
         dispatch(currentTempSliceActions.getForecast())
     }
 
-    function renderDate(d) {
+    function renderYear(d) {
         const date = new Date(d)
 
-        const fullDate = date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })
+        const fullDate = date.toLocaleDateString('en-US', { year: 'numeric', month: 'long'})
 
         return fullDate
     }
+
+ 
 
     return (
         <>
@@ -50,19 +54,19 @@ function RenderForecast() {
             <div className="weather-forecast">
                 <SwiperWrapper >
                     {forecast.map((day, id) => (
- 
-                            <SwiperSlide key={id} >
-                                <div className="forecast-day">{renderDate(day[2].dt_txt)}</div>
-                                <div className="weather-forecast-wrapper">
-                                    {day.map((hour, j) => (
-                                        < div className="forecast-for-hour" key={j} >
-                                            <ForecastData data={hour} />
-                                        </div>
-                                    ))}
-                                </div>
 
-                            </SwiperSlide>
-              
+                        <SwiperSlide key={id} >
+                            <div className="forecast-day">{renderYear(day[0].dt_txt)}</div>
+                            <div className="weather-forecast-wrapper">
+                                {day.map((hour, j) => (
+                                    < div className="forecast-for-hour" key={j} >
+                                        <ForecastData data={hour} />
+                                    </div>
+                                ))}
+                            </div>
+
+                        </SwiperSlide>
+
                     ))}
                 </SwiperWrapper>
             </div >
