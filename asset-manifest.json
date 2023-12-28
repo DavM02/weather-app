@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/weather-app/static/css/main.df03cf5d.css",
+    "main.js": "/weather-app/static/js/main.ef6b7ff0.js",
+    "static/js/787.d9312eb8.chunk.js": "/weather-app/static/js/787.d9312eb8.chunk.js",
+    "static/media/drizzle.svg": "/weather-app/static/media/drizzle.ff00f02598b922d5a06a0558c53f151e.svg",
+    "static/media/overcast clouds.svg": "/weather-app/static/media/overcast clouds.e11abc39c8f25c9d288d9831c4d1f488.svg",
+    "static/media/scattered clouds.svg": "/weather-app/static/media/scattered clouds.e11abc39c8f25c9d288d9831c4d1f488.svg",
+    "static/media/few clouds.svg": "/weather-app/static/media/few clouds.6220e8c6a51108fc21b55e7b07361ea4.svg",
+    "static/media/mist.svg": "/weather-app/static/media/mist.a289813309a5e526f678a1dbb76ea5ca.svg",
+    "static/media/snow.svg": "/weather-app/static/media/snow.61798d67ef4a440b9d818428b84e7c9e.svg",
+    "static/media/Gilroy-Regular.ttf": "/weather-app/static/media/Gilroy-Regular.fa652e766b6a85a1f9cb.ttf",
+    "static/media/Gilroy-Bold.ttf": "/weather-app/static/media/Gilroy-Bold.901a60fc2835c74fba67.ttf",
+    "static/media/shower rain.svg": "/weather-app/static/media/shower rain.43661575baa49483d227827ad9dfd78c.svg",
+    "static/media/rain.svg": "/weather-app/static/media/rain.aa2fd210ea43eff9f497a4e77c38bc85.svg",
+    "static/media/thunderstorm.svg": "/weather-app/static/media/thunderstorm.e8f7f6254971595da71fb745163d5c35.svg",
+    "static/media/clear sky.svg": "/weather-app/static/media/clear sky.865b83e07b126a82c565278fa96a9d81.svg",
+    "static/media/smoke.svg": "/weather-app/static/media/smoke.c4c02bbc79ac4284844605601094dee5.svg",
+    "static/media/squalls.svg": "/weather-app/static/media/squalls.774a0d5e997bd1040d8a77c6226fab42.svg",
+    "static/media/broken clouds.svg": "/weather-app/static/media/broken clouds.0a0030db42ed776d4298df0c77439bc7.svg",
+    "static/media/tornado.svg": "/weather-app/static/media/tornado.3271e5dd5df100fb2b6dc69152d453eb.svg",
+    "static/media/volcanic ash.svg": "/weather-app/static/media/volcanic ash.e1b5cf1a77d98d14d1d0228cc2adbc3e.svg",
+    "static/media/Art.svg": "/weather-app/static/media/Art.6b41407896a9fb0ddf55.svg",
+    "static/media/sunset.svg": "/weather-app/static/media/sunset.b11b7442638744a53443bec811876f22.svg",
+    "static/media/sunrise.svg": "/weather-app/static/media/sunrise.aaebc45bfa203e714c2bff5e761dc91c.svg",
+    "index.html": "/weather-app/index.html",
+    "main.df03cf5d.css.map": "/weather-app/static/css/main.df03cf5d.css.map",
+    "main.ef6b7ff0.js.map": "/weather-app/static/js/main.ef6b7ff0.js.map",
+    "787.d9312eb8.chunk.js.map": "/weather-app/static/js/787.d9312eb8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.df03cf5d.css",
+    "static/js/main.ef6b7ff0.js"
+  ]
+}
